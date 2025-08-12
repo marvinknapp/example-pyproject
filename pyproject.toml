@@ -11,7 +11,6 @@ description = "An example project to demonstrate pyproject.toml usage"
 keywords = ["example", "pyproject", "toml"]
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
 requires-python = ">=3.8"
@@ -20,13 +19,12 @@ dependencies = [
 ]
 
 [project.urls]
-source = "www.github.com/username/example-project"
-homepage = "www.homepage.com"
-issue = "www.github.com/username/example-project/issues"
+source = "https://www.github.com/username/example-project"
+homepage = "https://www.homepage.com"
+issue = "https://www.github.com/username/example-project/issues"
 
 [build-system]
 requires = [
-    "setuptools>=42",
-    "wheel"
+    "setuptools",
 ]
 build-backend = "setuptools.build_meta"
