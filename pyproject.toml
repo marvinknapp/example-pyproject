@@ -1,0 +1,30 @@
+[project]
+name = "example-project"
+version = "0.0.1"
+license = "MIT"
+license-files = ["LICENSE.txt"]
+authors = [
+    {name="Marvin Knapp", email="joedoe@something.us"},
+    {name="Jane Doe", email="mymail@alaska.org"}
+]
+description = "An example project to demonstrate pyproject.toml usage"
+keywords = ["example", "pyproject", "toml"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.19.5"
+]
+
+[project.urls]
+source = "https://www.github.com/username/example-project"
+homepage = "https://www.homepage.com"
+issue = "https://www.github.com/username/example-project/issues"
+
+[build-system]
+requires = [
+    "setuptools",
+]
+build-backend = "setuptools.build_meta"
